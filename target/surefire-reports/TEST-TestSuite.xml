@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.001" tests="49" errors="0" skipped="48" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sandeepraju\Desktop\NewGitpr\ESF-BROWSER-STACK-V3"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sandeepraju\Desktop\NewGitpr\ESF-BROWSER-STACK-V3"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SANDEE~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\sandeepraju\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7164640402838272763.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Windows\System32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\sandeepraju"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sandeepraju"/>
+    <property name="java.class.path" value="/C:/Users/sandeepraju/eclipse/java-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\sandeepraju\Desktop\NewGitpr\ESF-BROWSER-STACK-V3\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="open" classname="main.DeltaDriver" time="0.862">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;SandeepDell&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: driver.version: DeltaDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SandeepDell', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: DeltaDriver
+	at main.DeltaDriver.open(DeltaDriver.java:54)
+Caused by: java.net.UnknownHostException: hub.browserstack.com
+	at main.DeltaDriver.open(DeltaDriver.java:54)
+</failure>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScenarios" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="endFrameWork" classname="main.DeltaDriver" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
